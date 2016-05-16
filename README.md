@@ -5,7 +5,7 @@ Home: http://contextlib2.readthedocs.org
 
 Package license: PSF License
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: Backports and enhancements for the contextlib module
 
@@ -69,9 +69,15 @@ Terminology
 
 Current build status
 ====================
+
 Linux: [![Circle CI](https://circleci.com/gh/conda-forge/contextlib2-feedstock.svg?style=svg)](https://circleci.com/gh/conda-forge/contextlib2-feedstock)
 OSX: [![TravisCI](https://travis-ci.org/conda-forge/contextlib2-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/contextlib2-feedstock) 
 Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/contextlib2-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/contextlib2-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/contextlib2/badges/version.svg)](https://anaconda.org/conda-forge/contextlib2)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/contextlib2/badges/downloads.svg)](https://anaconda.org/conda-forge/contextlib2)
 
 
 Updating contextlib2-feedstock

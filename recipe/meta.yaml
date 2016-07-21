@@ -1,4 +1,4 @@
-{% set version = "0.5.1" %}
+{% set version = "0.5.3" %}
 
 package:
   name: contextlib2
@@ -6,8 +6,8 @@ package:
 
 source:
   fn: contextlib2-{{ version }}.tar.gz
-  url: https://pypi.python.org/packages/source/c/contextlib2/contextlib2-{{ version }}.tar.gz
-  md5: b7f4c5a2b900c419b11b20f59838de1b
+  url: https://pypi.io/packages/source/c/contextlib2/contextlib2-{{ version }}.tar.gz
+  sha256: 30e500f13921c73c96f49a6dd2adfbdd92bc3fae12183e91b06b2e4583486206
 
 build:
   script: python setup.py install

@@ -1,13 +1,16 @@
-{% set version = "0.5.3" %}
+{%set name = "contextlib2" %}
+{% set version = "0.5.4" %}
+{%set hash_type = "sha256" %}
+{%set hash_val = "710626cde569f51a87f216ff757fe60f5cd13ae8f8114706590510cd5649ce88" %}
 
 package:
-  name: contextlib2
+  name: {{ name }}
   version: {{ version }}
 
 source:
-  fn: contextlib2-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/c/contextlib2/contextlib2-{{ version }}.tar.gz
-  sha256: 30e500f13921c73c96f49a6dd2adfbdd92bc3fae12183e91b06b2e4583486206
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  {{ hash_type }}: {{ hash_val }}
 
 build:
   script: python setup.py install
@@ -16,6 +19,7 @@ build:
 requirements:
   build:
     - python
+    - setuptools
 
   run:
     - python
@@ -26,8 +30,12 @@ test:
 
 about:
   home: http://contextlib2.readthedocs.org
-  license: PSF License
+  license: PSF
+  license_family: PSF
+  license_file: LICENSE.txt
   summary: 'Backports and enhancements for the contextlib module'
+  dev_url: https://github.com/jazzband/contextlib2
+  doc_url: http://contextlib2.readthedocs.org
 
 extra:
   recipe-maintainers:

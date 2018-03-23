@@ -30,7 +30,7 @@ test:
 
 about:
   home: http://contextlib2.readthedocs.org
-  license: PSF
+  license: PSF 2
   license_family: PSF
   license_file: LICENSE.txt
   summary: 'Backports and enhancements for the contextlib module'
